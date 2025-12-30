@@ -1,0 +1,83 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: #26262b ;
+ }
+ .blok{
+
+ }
+
+ .bloknavbar {
+    background-color: #121213 ;
+    width: 100%;
+    height: 10vh;
+ }
+ .ulnavbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+ }
+ .linavbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+ }
+ .linavbar:hover {
+   background-color: #29292bd0;
+   transition: .2s ease-in-out ;
+   transition-delay: .1s;
+   border-radius: 50px;
+   
+ }
+ .a-navbar {
+   color: white;
+   text-decoration: none;
+ }
+ .blokcontent {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80vh;
+ }
+ .acontent {
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .imgcontent {
+    height: 100%;
+    width: 100%;
+ }
+ .bgvideo {
+   position: fixed;
+   inset: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   z-index: -1;
+ }
+ .blokfooter {
+    background-color: #121213;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+ .h1footer {
+    padding: 4px;
+    margin: 2px;
+    color: white;
+    font-size: 20px;
+ }
